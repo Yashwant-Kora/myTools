@@ -1,0 +1,209 @@
+:root {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+
+}
+#box1{
+    border: solid white;
+    border-radius: 19px;
+    position: sticky;
+    top: 500px;
+    left: 300px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur(5px);
+
+    
+}
+#p1{
+    color: white;
+    font-family: verdana, arial, sans-serif;
+    text-align: center;
+}
+.briefdisc{
+    text-align: center;
+
+    width: 99%;
+    height: 105px;
+    position: fixed;
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+}
+.container1{
+    color: white;
+    font-family: "Balsamiq Sans", sans-serif;
+    border: solid var(--clr-neon) 3px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    padding: 50px;
+    width: 25%;
+    height: 400px;
+
+    text-shadow: white 0px 0px 16px;
+    box-shadow: var(--clr-neon) 0px 0px 16px;
+}
+.container2{
+    color: white;
+    border-radius: 10px;
+    font-family: "Balsamiq Sans", sans-serif;
+    backdrop-filter: blur(2px);
+    border: solid var(--clr-neon) 3px;
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    width: 25%;
+    height: 400px;
+    padding: 50px;
+
+    text-shadow: white 0px 0px 16px;
+    box-shadow: var(--clr-neon) 0px 0px 16px;
+
+}
+#img1{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+
+
+
+.neon_button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: var(--clr-neon) solid 3px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
+
+    box-shadow: 0 0 1em 0 var(--clr-neon), inset 0 0 10px var(--clr-neon);
+    position: absolute;
+    top: 30px;
+    left: 1250px;
+    color: var(--clr-neon);
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    
+
+}
+
+.neon_button:hover {
+    background-color: var(--clr-neon);
+    color: white;
+    transform: translateY(-4px);
+}
+.neon_button_2{
+    border: var(--clr-neon) solid 3px;
+    color: var(--clr-neon);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: verdana;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
+
+    box-shadow: 0 0 1em 0 var(--clr-neon), inset 0 0 10px var(--clr-neon);
+    
+    position: absolute;
+    top: 30px;
+    left: 1390px;
+
+    transition: transform;
+    transition-duration: 0.3s;
+}
+
+.neon_button_2:hover{
+    background-color: var(--clr-neon);
+    color: white;
+    transform: translateY(-4PX);
+}
+.logo{
+    height: 205px;
+    width: 205px;
+    position: absolute;
+    top: 350px;
+    left: 655px;
+    border: var(--clr-neon) solid 5px;
+    box-shadow: var(--clr-neon) 0px 0px 20px;
+}
+
+.CounterBtn{
+    text-decoration: none;
+    color: white;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 20px;    
+
+    transition: transform;
+    transition-duration: 0.3s;
+}
+.CounterBtn:hover{
+    color: var(--clr-neon);
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+}
+.PTBtn{
+    text-decoration: none;
+    color: white;
+    transition: transform;
+    transition-duration: 0.3s;
+    font-size: 20px;
+
+}
+.PTBtn:hover{
+    color: var(--clr-neon);
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+}
+#sidec{
+    
+    font-size: 20px;
+}
+.calcBtn{
+    text-decoration: none;
+    color: white;
+    transition: transform;
+    transition-duration: 0.3s;
+    font-size: 20px;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+.calcBtn:hover{
+    color: var(--clr-neon);
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+}
+.agecalBtn{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+    transition: transform;
+    transition-duration: 0.3s;
+}
+.agecalBtn:hover{
+    color: var(--clr-neon);
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+}
+
+
+
+

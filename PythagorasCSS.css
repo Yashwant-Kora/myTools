@@ -1,0 +1,68 @@
+:root {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+}
+body{
+    background-color: black;
+}
+h1{
+    color: var(--clr-neon);
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+    position: fixed;
+    top: 10px;
+    left: 500px;
+    font-family: verdana;
+    font-size: 50px;
+}
+
+
+.Container1{
+    border: white solid 2px;
+    background-color: var(--clr-bg);
+}
+div{
+    height: 100px;
+    width: 166px;
+    padding: 30px 10px 30px; 
+    position: absolute;
+    top: 300px;
+    left: 700px;
+}
+button{
+    padding: 10px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 45px;
+    top: 120px;
+    background-color: var(--clr-neon);
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--clr-neon) 0px 0px 16px;
+    transition: transform;
+    transition-duration: 0.3s;
+}
+/*button:hover{
+    background-color: white;
+    color: var(--clr-neon);
+    box-shadow: white 0px 0px 16px;
+    transform: translateY(-4px);
+}*/
+input{
+    background-color: var(--clr-neon);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: verdana;
+    box-shadow: var(--clr-neon) 0px 0px 16px;
+    text-shadow: white 0px 0px 16px;
+}
+#ans{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--clr-neon);
+    position: absolute;
+    top: 100px;
+    left: 630px;
+    font-size: 30px;
+}

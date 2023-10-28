@@ -1,0 +1,37 @@
+:root {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+}
+
+body{
+    background-color: black;
+    font-family: verdana;
+}
+#Display1{
+    color: var(--clr-neon);
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+}
+#con1{
+    position: relative;
+    top: 400px;
+    left: 575px;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: var(--clr-neon);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: var(--clr-neon) 0px 0px 16px;
+    transition: transform;
+    transition-duration: 0.3s;
+}
+.buttons:hover{
+    background-color: white;
+    box-shadow: white 0px 0px 16px;
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+    /*color: var(--clr-neon);*/
+    transform: translateY(-3px);
+}

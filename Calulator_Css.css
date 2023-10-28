@@ -1,0 +1,60 @@
+:root {
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+}
+
+
+
+body{
+    background-color: black;
+}
+h1{
+    color: var(--clr-neon);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: var(--clr-neon) 0px 0px 16px;
+    position: absolute;
+    left: 660px;
+    top: 30px;
+}
+
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: var(--clr-neon);
+    border: none;
+    box-shadow: var(--clr-neon) 0px 0px 16px;
+    border-radius: 15px;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+
+#display {
+    width: 100%;
+    box-shadow: white 0px 0px 16px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: white;
+    box-shadow: white 0px 0px 16px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    margin: 5px;
+    border: none
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
